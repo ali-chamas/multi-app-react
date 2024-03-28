@@ -1,0 +1,23 @@
+.field {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 0.199);
+  cursor: pointer;
+}
+
+.calculator {
+  width: 300px;
+  height: auto;
+}
+.calculator > div {
+  flex-wrap: wrap;
+}
+
+.result-container {
+  width: 270px;
+  background-color: rgba(45, 33, 33, 0.119);
+  height: 100px;
+}
