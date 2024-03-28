@@ -3,7 +3,7 @@ import React from "react";
 const Calculator = () => {
   return (
     <section className="flex center">
-      <div>Calculator</div>
+      <div className="bg-primary p flex column"></div>
     </section>
   );
 };
