@@ -42,3 +42,7 @@
 .big-gap {
   gap: 30px;
 }
+
+.opacity {
+  opacity: 0.6;
+}
