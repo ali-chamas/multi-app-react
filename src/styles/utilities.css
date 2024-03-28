@@ -1,0 +1,44 @@
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.small-gap {
+  gap: 5px;
+}
+.gap {
+  gap: 20px;
+}
+
+.small-p {
+  padding: 5px;
+}
+
+.p {
+  padding: 20px;
+}
+
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.border-radius {
+  border-radius: 10px;
+}
+
+.big-gap {
+  gap: 30px;
+}

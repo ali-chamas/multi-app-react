@@ -1,0 +1,51 @@
+.sticky-input input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.626);
+  padding: 7px;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+.sticky-input input::placeholder {
+  color: rgba(255, 255, 255, 0.626);
+}
+
+.sticky-input button {
+  background-color: rgba(29, 0, 104, 0.626);
+  color: white;
+  padding: 7px;
+  border-radius: 20px;
+}
+.sticky-input button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.notes-container {
+  width: 50%;
+  height: 70vh;
+  overflow-y: auto;
+}
+.notes-container > div {
+  flex-wrap: wrap;
+}
+
+.note-card {
+  width: 200px;
+  max-width: 200px;
+  height: 200px;
+  box-shadow: 0 0 4px 0 rgba(211, 211, 211, 0.406);
+  cursor: grab;
+  overflow-y: auto;
+  position: relative;
+}
+.note-card small {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}

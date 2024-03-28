@@ -1,0 +1,12 @@
+.bg-primary {
+  background-color: rgba(221, 221, 221, 0.146);
+  backdrop-filter: blur(10px);
+}
+.bg-one {
+  background-color: rgba(0, 17, 111, 0.393);
+  backdrop-filter: blur(10px);
+}
+.bg-two {
+  background-color: rgba(94, 0, 111, 0.434);
+  backdrop-filter: blur(10px);
+}
